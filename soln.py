@@ -6,7 +6,7 @@ from Book import Book
 
 while True:
 
-    ###### MAIN JSON FILE READ EVERY TIME #######
+    ###### MAIN JSON FILE READ AND RUNEVERY TIME #######
     with open("Books.json") as BooksJSONFile:
         try:
             booksJSONData = json.load(BooksJSONFile)
